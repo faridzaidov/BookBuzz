@@ -1,0 +1,44 @@
+.card_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 400px;
+  background: darkgrey;
+  padding: 0 13px;
+  border-radius: 10px;
+}
+
+.card_photo {
+  border-radius: 5%;
+  background: white;
+}
+
+.card_more {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.card_name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0 1px 0;
+}
+
+.card_desc {
+  font-size: 15px;
+  margin: 0 0 6px 0;
+}
+
+.card_favourite {
+  display: flex;
+  justify-content: flex-end;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}

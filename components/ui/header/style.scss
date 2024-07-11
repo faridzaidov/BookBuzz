@@ -1,0 +1,49 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*width: 100%;*/
+  padding: 0 10px;
+}
+
+.search_container{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  border: black 1px solid;
+  border-radius: 10px;
+  padding: 5px 1px;
+}
+.search_input{
+  outline: none;
+  border: none;
+  width: 230px;
+}
+.header_button{
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+}
+.btn_cart{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: black 1px solid;
+}
+.btn_login{
+  outline: none;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: black;
+  color: white;
+}
